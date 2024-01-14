@@ -1,0 +1,16 @@
+---
+title: 'hello, world!'
+date: 2024-01-14 10:26:12
+tags:
+---
+
+/dev/mmcblk1
+dd if=/dev/mmcblk1 of=/mnt/mmcblk0p1/panther-x2_emmc_ha_backup.img status=progress
+/dev/mmcblk1boot0
+dd if=/dev/mmcblk1boot0 of=/mnt/mmcblk0p1/panther-x2_mmcblk1boot0_backup.img status=progress
+/dev/mmcblk1boot1
+dd if=/dev/mmcblk1boot1 of=/mnt/mmcblk0p1/panther-x2_mmcblk1boot1_backup.img status=progress
+/dev/mmcblk1p1
+dd if=/dev/mmcblk1p1 of=/mnt/mmcblk0p1/panther-x2_mmcblk1p1_backup.img status=progress
+/dev/mmcblk1p2
+dd if=/dev/mmcblk1p2 of=/mnt/mmcblk0p1/panther-x2_mmcblk1p2_backup.img status=progress
